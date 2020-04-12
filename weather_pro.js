@@ -288,13 +288,13 @@ https://github.com/sazs34/TaskConfig/blob/master/assets/weather_pro.md
 
 let config = {
 
-    darksky_api: "填key", //从https://darksky.net/dev/ 上申请key填入即可
+    darksky_api: "ab16b174761a981b34d3e605fe11639e", //从https://darksky.net/dev/ 上申请key填入即可
 
-    aqicn_api: "填key", //从http://aqicn.org/data-platform/token/#/ 上申请key填入即可
+    aqicn_api: "c7863e4eca255e7220275005601fa9ed91271b4a", //从http://aqicn.org/data-platform/token/#/ 上申请key填入即可
 
-    huweather_apiKey: "填api key", //和风天气APIkey,可自行前往 https://dev.heweather.com/ 进行获取
+    huweather_apiKey: "93cd69b0292e4d71bd991b65b608ec78", //和风天气APIkey,可自行前往 https://dev.heweather.com/ 进行获取
 
-    lat_lon: "填经纬度", //请填写经纬度,直接从谷歌地图中获取即可
+    lat_lon: "31.08265778759137,109.8810421858742", //请填写经纬度,直接从谷歌地图中获取即可
 
     lang: "zh", //语言,随意切换为您想要的语言哦(zh/zh-tw/ja/en/fr/...)
 

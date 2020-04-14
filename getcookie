@@ -1,6 +1,6 @@
 #remote scripts
 
-hostname = api.m.jd.com, *.iqiyi.com, www.52pojie.cn, manga.bilibili.com, www.flyertea.com, wapside.189.cn:9001, wx.10086.cn, www.smzdm.com, music.163.com, *.acfun.cn, *.bilibili.com, act.10010.com, m.client.10010.com, zt.wps.cn, api-hdcj.9w9.com, tieba.baidu.com, c.tieba.baidu.com, h5.ele.me, api.rr.tv, i.meituan.com, promotion.waimai.meituan.com, *.video.qq.com, xiaoshuo.qm989.com, nebula.kuaishou.com, draw.jdfcloud.com
+hostname = api.m.jd.com, *.iqiyi.com, www.52pojie.cn, manga.bilibili.com, www.flyertea.com, wapside.189.cn:9001, wx.10086.cn, www.smzdm.com, music.163.com, *.acfun.cn, *.bilibili.com, act.10010.com, m.client.10010.com, zt.wps.cn, api-hdcj.9w9.com, tieba.baidu.com, c.tieba.baidu.com, h5.ele.me, api.rr.tv, i.meituan.com, promotion.waimai.meituan.com, *.video.qq.com, xiaoshuo.qm989.com, nebula.kuaishou.com, draw.jdfcloud.com,api.1sapp.com  
 
 http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|\!/photos/pic_recommend_status) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 
@@ -20,3 +20,6 @@ http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https:/
 
 http-request,pattern=https:\/\/manga\.bilibili\.com\/.*\.User\/GetWallet,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 
+http-request ^https:\/\/api\.1sapp\.com\/sign\/info? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js

@@ -1,3 +1,3 @@
-#[Group]
-#groupName=HuMe
-#美亞電影,http://f3.apps1818.com/live/375/f986bce5616dac7e4b8c09011c699f1d/index.m3u8
+[Group]
+groupName=HuMe
+美亞電影,http://f3.apps1818.com/live/375/f986bce5616dac7e4b8c09011c699f1d/index.m3u8

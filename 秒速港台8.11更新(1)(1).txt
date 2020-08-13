@@ -1,3 +1,7 @@
+[Group]
+
+groupNmae=HuMe
+
 美亞電影,http://f3.apps1818.com/live/375/f986bce5616dac7e4b8c09011c699f1d/index.m3u8
 民視,http://f3.apps1818.com/live/26/af87f68b12779a17a66befd9313678d7/index.m3u8
 TVBJ2,http://f3.apps1818.com/live/392/df893d5db456247da33bdcdb20295e4e/index.m3u8

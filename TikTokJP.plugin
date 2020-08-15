@@ -1,5 +1,5 @@
 [URL Rewrite]
-(?<=_region1?=)(CN|HK)(?=&) UK 307
+(?<=_region1?=)(CN|HK)(?=&) JP 307
 (?<=&app_version=)17..(?=.?.?&) url 307 1
 (?<=\?version_code=)17..(?=.?.?&) url 307 1
 
